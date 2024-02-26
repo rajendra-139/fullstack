@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Input Document</title>    
+    </head>
+    <body>
+        <form>
+            <label for="fname">First Name</label>
+            <input type="text" name="fname" id="fname">
+            <br><br>
+            <label for="lname">Last Name</label>
+            <input type="text" name="lname" id="lname">
+            <br><br>
+            <label for="userpassword">Password</label>
+            <input type="password" name="userpassword" id="userpassword">
+            <input type="submit" value="SignUp">
+            <input type="reset" value="reset data">
+            <br><br>
+            <br><br>
+            <p>what is your gender</p>
+            <input type="radio" name="gender" value="male">
+            <label>male</label>
+            &nbsp;&nbsp;
+            <input type="radio" name="gender" value="female">
+            <label>female</label>
+            <br><br>
+            <p>what is your hobby</p>
+            <input type="checkbox" name="hobby1" value="reading">
+            <label>reading</label>
+            <br><br>
+            <input type="checkbox" name="hobby1" value="playing">
+            <label>playing</label>
+            <br><br>
+            <input type="button" value="click me" onclick="alert(2+2)">
+            <br><br>
+            <input type="color" name="backgroundcolor" value="#FFA500">
+            <br><br>
+            <input type="date" name="dob" max="2023-11-30" min="2023-10-30" value="2023-11-01">
+            <br><br>
+            <input type="file" name="myfile" accept=".pdf,.jpg,.png">
+            <br><br>
+            <input type="month" min="2023-10" value="2023-11">
+            <br><br>
+            <input type="time" value="12:00:00"/>
+            <br><br>
+            <input type="datetime-local" value="2023-11-10T12:00:00"/>
+            <br><br>
+            <input type="week" value="2023-W10"/>
+            <br><br>
+            <input type="number" value="10" min="4" max="20" step="3" />
+            <br><br>
+            <label>Select Your Age</label>
+            <input type="range" min="0" max="120" value="20" step="1"/>
+
+        </form>
+    </body>
+</html>
